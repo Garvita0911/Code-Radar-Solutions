@@ -1,9 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-char word[10];
-scanf("%s",word);
-printf("You entered: %s\n",word);
-
+char str[5];
+scanf("%s",str);
+printf("You entered: %s\n",str);
 return 0;
 }
