@@ -9,6 +9,6 @@ int main(){
     printf("Age: %d");
     char str2[100];
     scanf("%s",str2);
-    printf("Hobby: %s")
+    printf("Hobby: %s");
     return 0;
 }
