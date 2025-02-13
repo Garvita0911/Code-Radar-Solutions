@@ -2,7 +2,8 @@
 #include<stdio.h>
 int main(){
     float a;
-    printf("");
     scanf("%f",a);
+    printf("");
+
     return 0;
 }
