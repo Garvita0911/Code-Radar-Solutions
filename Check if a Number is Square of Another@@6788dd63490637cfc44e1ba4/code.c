@@ -3,9 +3,9 @@
 #include<math.h>
 int main(){
     int n,m;
-    printf(" ",n);
+    printf("",n);
     scanf("%d",&n);
-    printf(" ",m);
+    printf("",m);
     scanf("%d",&m);
     if(n==m*m){
         printf("Yes");
