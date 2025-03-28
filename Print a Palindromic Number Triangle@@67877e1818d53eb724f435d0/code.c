@@ -13,11 +13,8 @@ int main(){
         }
         // for(int m=1;m<=i;m++){
         //     printf()
+        printf("\n");
         }
 
-
-            
-        
-        printf("\n");
     return 0;  }
     
