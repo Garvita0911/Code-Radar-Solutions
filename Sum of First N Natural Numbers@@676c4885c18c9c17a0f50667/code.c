@@ -4,10 +4,10 @@ int main(){
     int N;
     printf("",N);
     scanf("%d",&N);
+    int sum=0;
     for(int i=1;i<=N;i++){
-        int sum=0;
-        if(N!=0){
-            sum=sum+N;
+        
+            sum=sum+i;
             printf("%d",sum);
         }
         //printf("%d",sum);
