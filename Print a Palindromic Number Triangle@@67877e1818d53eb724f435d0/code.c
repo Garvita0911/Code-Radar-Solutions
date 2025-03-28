@@ -10,11 +10,13 @@ int main(){
             printf(" ");
         }
         for(int k=1;k<=i;k++){
-            printf("%d",a);
-            a++;
+            printf("%d",k);
+
         }
-        // for(int m=1;m<=i;m++){
-        //     printf()
+    
+        for(int m=1;m<=i;m++){
+            printf("%d",a);
+            a--;
         printf("\n");
         }
 
