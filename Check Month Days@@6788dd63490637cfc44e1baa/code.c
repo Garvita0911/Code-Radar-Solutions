@@ -38,6 +38,7 @@ int main(){
     }
     else if(x==12){
         printf("31");
+    }
 
     else printf("Invalid");
     return 0;
