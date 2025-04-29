@@ -1,0 +1,35 @@
+weather_forecast_project:
+  name: "Weather Predictor"
+  version: "1.0"
+  description: "A simple weather forecast application using data from various sources."
+  
+  data_sources:
+    - name: "OpenWeatherMap"
+      url: "https://api.openweathermap.org/data/2.5/weather"
+      api_key: "<your_api_key>"
+    - name: "WeatherAPI"
+      url: "https://api.weatherapi.com/v1/current.json"
+      api_key: "<your_api_key>"
+  
+  forecast_settings:
+    location: "New York, USA"
+    units: "metric"  # Options: metric, imperial
+    update_frequency: "hourly"
+    
+  alerts:
+    enabled: true
+    types:
+      - "storm"
+      - "rain"
+      - "heatwave"
+    
+  logging:
+    level: "INFO"
+    output_file: "logs/weather_forecast.log"
+  
+  notifications:
+    email:
+      enabled: true
+      recipient: "user@example.com"
+    sms:
+      enabled: false
